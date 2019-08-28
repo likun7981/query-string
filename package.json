@@ -1,6 +1,6 @@
 {
   "name": "qs-es5",
-  "version": "6.8.2",
+  "version": "6.8.3",
   "description": "Parse and stringify URL query strings",
   "license": "MIT",
   "repository": "likun7981/query-string",
