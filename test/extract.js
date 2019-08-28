@@ -1,5 +1,5 @@
 import test from 'ava';
-import queryString from '..';
+import queryString from '../index.es5';
 
 test('extracts query string from url', t => {
 	t.is(queryString.extract('https://foo.bar/?abc=def&hij=klm'), 'abc=def&hij=klm');

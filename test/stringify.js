@@ -1,5 +1,5 @@
 import test from 'ava';
-import queryString from '..';
+import queryString from '../index.es5';
 
 test('stringify', t => {
 	t.is(queryString.stringify({foo: 'bar'}), 'foo=bar');
