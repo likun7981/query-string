@@ -1,9 +1,9 @@
 {
-	"name": "query-string",
+	"name": "qs-es5",
 	"version": "6.8.2",
 	"description": "Parse and stringify URL query strings",
 	"license": "MIT",
-	"repository": "sindresorhus/query-string",
+	"repository": "likun7981/query-string",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -37,7 +37,7 @@
 	"dependencies": {
 		"split-on-first": "^1.0.0",
 		"decode-uri-component": "^0.2.0",
-		"strict-uri-encode": "^2.0.0"
+		"strict-uri-encode": "^1.1.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
