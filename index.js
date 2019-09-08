@@ -21,8 +21,7 @@ function splitOnFirst(string, separator) {
 		string.slice(0, separatorIndex),
 		string.slice(separatorIndex + separator.length)
 	];
-};
-;
+}
 
 function encoderForArrayFormat(options) {
 	switch (options.arrayFormat) {
